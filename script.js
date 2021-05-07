@@ -57,6 +57,9 @@ function createCactus(){
       // game over
       clearInterval(leftInterval);
       document.body.innerHTML = '<h1 class="game-over">Fim de jogo</h1>';
+      document.body.style.backgroundImage = 'url(img/example.png)';
+      document.body.style.backgroundRepeat = 'no-repeat';
+      document.body.style.backgroundPositionX = 'center';
     }else {
       // continue andando
       cactusPosition -= 10;
